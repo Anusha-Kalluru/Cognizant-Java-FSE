@@ -1,9 +1,10 @@
-package com.cognizant.spring_learn;
+package com.cognizant.loan;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringLearnApplicationTests {
+class LoanApplicationTests {
 
 	@Test
 	void contextLoads() {

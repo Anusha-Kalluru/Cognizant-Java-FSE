@@ -6,7 +6,11 @@ public class Country {
     private String name;
 
     public Country() {
-        System.out.println("Inside Country Constructor.");
+    }
+
+    public Country(String code, String name) {
+        this.code = code;
+        this.name = name;
     }
 
     public String getCode() {
@@ -23,10 +27,5 @@ public class Country {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "Country [code=" + code + ", name=" + name + "]";
     }
 }
